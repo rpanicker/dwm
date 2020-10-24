@@ -27,8 +27,8 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "qutebrowser",     NULL,       NULL,       2 << 5,            1,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 5,       0,           -1 },
+	{ "qutebrowser",     NULL,       NULL,       1 << 2,            1,           -1 },
+	{ "Firefox",  NULL,       NULL,       1 << 4,       0,           -1 },
 };
 
 /* layout(s) */
