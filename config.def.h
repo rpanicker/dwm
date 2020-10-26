@@ -86,6 +86,7 @@ ResourcePref resources[] = {
 		{ "nmaster",          	INTEGER, &nmaster },
 		{ "resizehints",       	INTEGER, &resizehints },
 		{ "mfact",      	 	FLOAT,   &mfact },
+		{ "baralpha",      	INTEGER,   &baralpha },
 };
 
 static Key keys[] = {
