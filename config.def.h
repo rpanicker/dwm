@@ -5,7 +5,7 @@ static unsigned int borderpx  = 3;        /* border pixel of windows */
 static unsigned int snap      = 32;       /* snap pixel */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "inconsolata:size=14" };
+static const char *fonts[]          = { "inconsolata:size=14", "fontawesome:size=14 };
 static const char dmenufont[]       = "inconsolata:size=14";
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
@@ -80,13 +80,12 @@ ResourcePref resources[] = {
 		{ "selbordercolor",     STRING,  &selbordercolor },
 		{ "selfgcolor",         STRING,  &selfgcolor },
 		{ "borderpx",          	INTEGER, &borderpx },
-		{ "snap",          		INTEGER, &snap },
+		{ "snap",          	INTEGER, &snap },
 		{ "showbar",          	INTEGER, &showbar },
 		{ "topbar",          	INTEGER, &topbar },
 		{ "nmaster",          	INTEGER, &nmaster },
 		{ "resizehints",       	INTEGER, &resizehints },
-		{ "mfact",      	 	FLOAT,   &mfact },
-		{ "baralpha",      	INTEGER,   &baralpha },
+		{ "mfact",       	FLOAT,   &mfact },
 };
 
 static Key keys[] = {
